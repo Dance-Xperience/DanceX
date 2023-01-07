@@ -138,7 +138,7 @@ ul#footer-content .social-link>a{
 }
 
 ul#footer-content > li:not(.social-link) {
-  /* zorg dat het eerste item in de nav list de remaining space van de navlist vult (dan plaatst hij de andere items naar rechts) */
+  /* zorg dat het eerste item in de footer list de remaining space van de footer list vult (dan plaatst hij de andere items naar rechts) */
   max-width: 400px;
   flex:1;
 }
