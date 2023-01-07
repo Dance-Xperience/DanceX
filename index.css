@@ -85,7 +85,7 @@ ul#nav > li:first-child {
 footer,
 #footer-content {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-direction: row;
 }
 
@@ -106,6 +106,7 @@ ul#footer-content {
   /* zorg dat de nav list de hele footer vult */
   flex: 1;
   flex-direction: row;
+  gap: 4em;
 
   list-style: none;
   margin: 0;
@@ -115,33 +116,70 @@ ul#footer-content {
 ul#footer-content > li > a {
   /* anchor tags (<a>) hebben by default geen width/height attributes dus die moet je eerst als 'block' displayen.*/
   display: block;
-
-  padding-top: 20px;
-  padding-bottom: 20px;
   /* 24px */
   font-size: 1rem;
 }
 
 ul#footer-content .social-link {
-  width: 170px;
   text-align: center;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+ul#footer-content .social-link>a{
+    display: flex;
+    flex-direction: row;
+
+    gap: 0.5em;
+
+    align-items: center;
 }
 
 ul#footer-content > li:not(.social-link) {
   /* zorg dat het eerste item in de nav list de remaining space van de navlist vult (dan plaatst hij de andere items naar rechts) */
-  flex: 1;
-  text-align: left;
+  max-width: 400px;
+  flex:1;
+}
+
+ul#footer-content {
+    margin: 1em 3em;
 }
 
 .footercolumn {
   float: left;
-  width: 50%;
   padding: 10px;
 }
 .footercol:after {
   content: "";
   display: table;
   clear: both;
+}
+
+li#kabelradio {
+    display: flex;
+    flex-direction: column;
+}
+
+ul#kabelradio-lijst {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap:  0 2.8em;
+}
+
+ul#kabelradio-lijst > li {
+    /* margin-right: 2em; */
+    margin: 0;
+    padding: 0;
+}
+
+li h4 {
+    margin: 0.5em;
 }
 
 /* #################### Agenda #################### */
