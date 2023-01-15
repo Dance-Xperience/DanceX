@@ -8,4 +8,6 @@
 	stations.
 </p>
 <p>De website zal begin februari weer live zijn.</p>
-<p>Volg voor meer informatie Ap Kessie op Facebook!</p>
+<p>
+	Volg voor meer informatie <a href="https://www.facebook.com/djkessie/">Ap Kessie op Facebook!</a>
+</p>
