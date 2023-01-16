@@ -1,0 +1,15 @@
+@font-face {
+        font-family: Excluded;
+        src: url('/assets/fonts/Excluded-Italic.woff') format('woff');
+        font-weight: bold;
+        font-style: italic;
+}
+
+:root {
+        --font-excluded: 'Excluded', sans-serif;
+}
+
+.font-excluded {
+        font-family: var(--font-excluded);
+        line-height: 0.6;
+}
