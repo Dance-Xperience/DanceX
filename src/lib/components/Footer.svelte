@@ -49,20 +49,20 @@
 	});
 </script>
 
-<footer id="footer" class="static lg:absolute lg:bottom-0 flex justify-center items-center w-full">
+<footer
+	id="footer"
+	class="static lg:sticky lg:bottom-0 flex justify-center items-center w-full bg-gray-800 lg:bg-white text-white lg:text-black shadow-2xl fade-content shadow-white"
+>
 	<!-- TODO light vs dark theme -->
 	<div
 		id="footer__content"
 		class="
                         flex flex-col flex-grow justify-between items-center 
                         max-w-7xl
-                        bg-gray-800 lg:bg-white 
-                        text-white lg:text-black
-			
                 "
 	>
 		<!-- border -->
-		<div class="w-0 transition-all lg:w-[92%] max-w-7xl mt-2 border-t-2 border-black" />
+		<div class="w-0 transition-all lg:w-[92%] max-w-7xl border-t-2 border-black" />
 
 		<div
 			id="footer__information"
@@ -75,48 +75,46 @@
 
 				relative gap-8"
 		>
-			<div
-				id="footer__kabelradio"
-				class="text-center max-w-[16rem] flex-1 flex flex-wrap justify-center"
-			>
+			<div id="footer__kabelradio" class="text-center flex flex-col items-center">
 				<b>Digitale Kabelradio</b>
-				<div class="basis-full h-0" />
-				<button
-					id="footer__kabelradio__scrollLeft"
-					class="hidden lg:block whitespace-nowrap cursor-pointer px-2 clickable-large">❮</button
-				>
-				<ul
-					id="footer__kabelradio__list"
-					class="
-						relative
-						flex flex-col justify-between
-						
-						lg:flex-row lg:flex-grow lg:flex-nowrap lg:whitespace-nowrap
 
-						max-w-[10rem]
-						overflow-hidden
-					"
-				>
-					<li class="lg:min-w-full translate-x-[var(--footer-kabelradio-offset)] transition-all">
-						KPN: 1015
-					</li>
-					<li class="lg:min-w-full translate-x-[var(--footer-kabelradio-offset)] transition-all">
-						XS4ALL: 1015
-					</li>
-					<li class="lg:min-w-full translate-x-[var(--footer-kabelradio-offset)] transition-all">
-						Solcon: 1215
-					</li>
-					<li class="lg:min-w-full translate-x-[var(--footer-kabelradio-offset)] transition-all">
-						Ziggo: 912
-					</li>
-					<li class="lg:min-w-full translate-x-[var(--footer-kabelradio-offset)] transition-all">
-						T-Mobile: 2086
-					</li>
-				</ul>
-				<button
-					id="footer__kabelradio__scrollRight"
-					class="hidden lg:block whitespace-nowrap cursor-pointer px-2 clickable-large">❯</button
-				>
+				<div class="flex">
+					<button
+						id="footer__kabelradio__scrollLeft"
+						class="hidden lg:block whitespace-nowrap cursor-pointer px-2 clickable-large">❮</button
+					>
+					<ul
+						id="footer__kabelradio__list"
+						class="
+							relative
+							flex flex-col justify-between
+					
+							lg:flex-row lg:flex-grow lg:flex-nowrap lg:whitespace-nowrap
+							max-w-[10rem]
+							overflow-hidden
+						"
+					>
+						<li class="lg:min-w-full translate-x-[var(--footer-kabelradio-offset)] transition-all">
+							KPN: 1015
+						</li>
+						<li class="lg:min-w-full translate-x-[var(--footer-kabelradio-offset)] transition-all">
+							XS4ALL: 1015
+						</li>
+						<li class="lg:min-w-full translate-x-[var(--footer-kabelradio-offset)] transition-all">
+							Solcon: 1215
+						</li>
+						<li class="lg:min-w-full translate-x-[var(--footer-kabelradio-offset)] transition-all">
+							Ziggo: 912
+						</li>
+						<li class="lg:min-w-full translate-x-[var(--footer-kabelradio-offset)] transition-all">
+							T-Mobile: 2086
+						</li>
+					</ul>
+					<button
+						id="footer__kabelradio__scrollRight"
+						class="hidden lg:block whitespace-nowrap cursor-pointer px-2 clickable-large">❯</button
+					>
+				</div>
 			</div>
 			<div id="footer__fmradio" class="text-center max-w-md">
 				<b>FM Radio</b>
@@ -134,13 +132,18 @@
 				<b>Online Stream</b>
 				<ul class="flex">
 					<li>
-						<a href="https://omroepede.nl/radio" class="clickable-large">https://omroepede.nl/radio</a>
+						<a href="https://omroepede.nl/radio" class="clickable-large"
+							>https://omroepede.nl/radio</a
+						>
 					</li>
 				</ul>
 			</div>
 			<ul id="footer__socials" class="flex flex-row gap-8 lg:gap-4 flex-wrap mt-8 lg:mt-0">
 				<li class="social-link">
-					<a href="https://www.facebook.com/djkessie/" class="flex items-center gap-2 clickable-large">
+					<a
+						href="https://www.facebook.com/djkessie/"
+						class="flex items-center gap-2 clickable-large"
+					>
 						<img
 							class="h-10"
 							height="96em"

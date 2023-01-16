@@ -2,7 +2,10 @@
 	import id from '../../identity';
 </script>
 
-<header id="top" class="absolute flex justify-center items-center w-full text-3xl">
+<header
+	id="top"
+	class="sticky top-0 flex justify-center items-center w-full text-3xl bg-white fade-content shadow-white"
+>
 	<div id="header__content" class="flex flex-col flex-grow justify-between items-center max-w-7xl ">
 		<nav
 			id="header__navbar"

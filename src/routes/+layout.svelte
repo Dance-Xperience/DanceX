@@ -10,9 +10,9 @@
 	import '../app.css';
 
 	// import '$lib/styles/colors.scss';
-        import '$lib/styles/typography.scss';
+	import '$lib/styles/typography.scss';
 	import '$lib/styles/design.scss';
-        // import '$lib/styles/layout.scss';
+	// import '$lib/styles/layout.scss';
 </script>
 
 <svelte:head>
@@ -45,12 +45,14 @@
 	<meta name="twitter:image" content={`${id.url}/assets/img/logo/jpg/summary.jpg`} />
 </svelte:head>
 
-<div class="relative flex flex-col items-center">
+<div class=" relative flex flex-col justify-between items-center min-h-screen">
 	<Header />
 
-	<main class="min-h-screen">
-		<slot />
-	</main>
+	<section class="w-full flex flex-col justify-center items-center">
+		<div id="content" class="max-w-7xl">
+			<slot />
+		</div>
+	</section>
 
 	<Footer />
 </div>
