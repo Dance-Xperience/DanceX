@@ -2,47 +2,71 @@
 	import id from '../../identity';
 </script>
 
-<header id="top" class="flex justify-center w-full text-3xl">
-	<nav
-		id="header__navbar"
-		class="
-			flex flex-row justify-between 
-			flex-1
-			max-w-7xl
-			
-			mx-4
-			my-2
-		"
-	>
-		<a href="/" style="display:inline-block">
-			<img id="header__logo" src="" alt={id.name} />
-		</a>
-
-		<input id="header__navbar__menu-toggle" class="hidden" type="checkbox" />
-		<label class="flex" for="menu-toggle">
-			<div class="block bg-white" />
-		</label>
-
-		<ul
+<header id="top" class="absolute flex justify-center items-center w-full text-3xl">
+	<div id="header__content" class="flex flex-col flex-grow justify-between items-center max-w-7xl ">
+		<nav
+			id="header__navbar"
 			class="
-				hidden 
-				fixed
-				top-0 left-0 
+					flex flex-grow justify-between items-center self-stretch xl:items-end
+					
+					mx-8 mt-6 mb-4
 
-				bg-gray-900
-
-				md:flex 
-				md:static
-				md:gap-x-16
-
-				md:bg-transparent
-			"
+					max-w-7xl
+	
+					relative
+				"
 		>
-			<li><a href="/">Home</a></li>
-			<li><a href="/about">About</a></li>
-			<li><a href="/contact">Contact</a></li>
-		</ul>
-	</nav>
+			<a href="/" class="flex flex-row items-end font-excluded text-4xl hover:no-underline">
+				<img
+					class="h-10"
+					height="96em"
+					id="header__logo"
+					src="/assets/img/logo/svg/logo-D.svg"
+					alt={id.name}
+				/>
+				<span class="hidden xl:inline translate-x-[-0.175rem]">ance</span>
+				<img
+					class="h-10 translate-x-[-0.95rem] xl:translate-x-0"
+					height="96em"
+					id="header__logo"
+					src="/assets/img/logo/svg/logo-X.svg"
+					alt=""
+				/>
+				<span class="hidden xl:inline">perience</span>
+			</a>
+			<input id="header__navbar__menu-toggle" class="hidden" type="checkbox" />
+
+			<label
+				class="lg:hidden flex flex-col w-12 gap-1.5 justify-between relative p-1 cursor-pointer"
+				for="menu-toggle"
+			>
+				<div class="bg-black h-1.5" />
+				<div class="bg-black h-1.5" />
+				<div class="bg-black h-1.5" />
+			</label>
+
+			<ul
+				class="
+						hidden
+						fixed
+						top-0 left-0
+						bg-gray-900
+						xl:leading-[0.8]
+						lg:flex
+						lg:static
+						lg:gap-x-10
+						lg:bg-transparent
+					"
+			>
+				<li><a href="/aboutus">Over Ons</a></li>
+				<li><a href="/contact">Contact</a></li>
+				<li><a href="/friends">Vriendenboek</a></li>
+				<li><a href="/gallery">Fotoboek</a></li>
+			</ul>
+		</nav>
+		<!-- border -->
+		<div class="w-full transition-[width] lg:w-[92%] max-w-7xl mt-2 border-b-2 border-black" />
+	</div>
 </header>
 
 <style>
