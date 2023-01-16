@@ -20,7 +20,7 @@
 	<meta name="robots" content="index, follow" />
 
 	<!-- Metadata -->
-	<title>{`${id.name}}`}</title>
+	<title>{`${id.name}`}</title>
 	<meta name="keywords" content={`${id.name}, ${id.keywords.join(', ')}`} />
 	<meta name="description" content={id.description} />
 
