@@ -12,6 +12,7 @@
 	// import '$lib/styles/colors.scss';
 	import '$lib/styles/typography.scss';
 	import '$lib/styles/design.scss';
+	import '$lib/styles/colors.scss'
 	// import '$lib/styles/layout.scss';
 </script>
 

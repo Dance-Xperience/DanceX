@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@iconfu/svg-inject': ^1.2.3
   '@playwright/test': ^1.28.1
   '@sveltejs/adapter-auto': ^1.0.0
   '@sveltejs/adapter-cloudflare': ^1.0.3
@@ -24,6 +25,7 @@ specifiers:
   vitest: ^0.25.3
 
 devDependencies:
+  '@iconfu/svg-inject': 1.2.3
   '@playwright/test': 1.29.2
   '@sveltejs/adapter-auto': 1.0.0_@sveltejs+kit@1.0.10
   '@sveltejs/adapter-cloudflare': 1.0.3_@sveltejs+kit@1.0.10
@@ -285,6 +287,10 @@ packages:
 
   /@humanwhocodes/object-schema/1.2.1:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
+    dev: true
+
+  /@iconfu/svg-inject/1.2.3:
+    resolution: {integrity: sha512-3v1MUAJqmJS4jmhHoCkSxt+EdJrjPHlLXrWocCT25kCxnxJto8028Z6CC406EL11KA53SDZgI/QQA5GEJAoiRw==}
     dev: true
 
   /@jridgewell/resolve-uri/3.1.0:

@@ -1,10 +1,20 @@
-<script>
+<script lang="ts">
 	import id from '../../identity';
+
+	import inject from '@iconfu/svg-inject';
+
+	import { onMount } from 'svelte';
+
+	onMount(() => {
+		document.querySelectorAll('nav img[src$=".svg"]').forEach((img) => {
+			inject(img);
+		});
+	});
 </script>
 
 <header
 	id="top"
-	class="sticky top-0 flex justify-center items-center w-full text-3xl bg-white fade-content shadow-white"
+	class="sticky top-0 flex justify-center items-center w-full text-3xl clr-bg-primary"
 >
 	<div id="header__content" class="flex flex-col flex-grow justify-between items-center max-w-7xl ">
 		<nav
@@ -19,29 +29,37 @@
 					relative
 				"
 		>
-			<a href="/" class="flex flex-row items-end font-excluded text-4xl">
-				<img
-					class="h-10"
-					height="96em"
-					id="header__logo"
-					src="/assets/img/logo/svg/logo-D.svg"
-					alt={id.name}
-				/>
-				<span class="hidden xl:inline translate-x-[-0.175rem] leading-[0.6125]">ance</span>
-				<img
-					class="h-10 translate-x-[-0.95rem] xl:translate-x-0"
-					height="96em"
-					id="header__logo"
-					src="/assets/img/logo/svg/logo-X.svg"
-					alt=""
-				/>
-				<span class="hidden xl:inline leading-[0.6125]">perience</span>
+			<a
+				href="/"
+				class="clr-text-primary"
+				aria-label="Dance Experience"
+				aria-labelledby="Dance Xperience"
+			>
+				<h1 class="flex flex-row items-end font-excluded text-4xl">
+					<img
+						class="h-10"
+						height="96em"
+						id="header__logo-D"
+						src="/assets/img/logo/svg/logo-D.svg"
+						alt="D"
+					/>
+					<span class="hidden xl:inline translate-x-[-0.175rem] leading-[0.6125]">ance</span>
+					<img
+						class="h-10 translate-x-[-0.95rem] xl:translate-x-0"
+						height="96em"
+						id="header__logo-X"
+						src="/assets/img/logo/svg/logo-X.svg"
+						alt="X"
+					/>
+					<span class="hidden xl:inline leading-[0.6125]">perience</span>
+				</h1>
 			</a>
 			<input id="header__navbar__menu-toggle" class="hidden" type="checkbox" />
 
 			<label
 				class="lg:hidden flex flex-col w-12 gap-1.5 justify-between relative p-1 cursor-pointer"
 				for="menu-toggle"
+				aria-label="Navigation Menu"
 			>
 				<div class="bg-black h-1.5" />
 				<div class="bg-black h-1.5" />
@@ -61,16 +79,20 @@
 						lg:bg-transparent
 					"
 			>
-				<li class="clickable"><a href="#aboutus">Over Ons</a></li>
-				<li class="clickable"><a href="#contact">Contact</a></li>
-				<li class="clickable"><a href="#friends">Vriendenboek</a></li>
-				<li class="clickable"><a href="#gallery">Fotoboek</a></li>
+				<li class="clickable"><a class="clr-text-primary" href="#aboutus">Over Ons</a></li>
+				<li class="clickable"><a class="clr-text-primary" href="#contact">Contact</a></li>
+				<li class="clickable"><a class="clr-text-primary" href="#friends">Vriendenboek</a></li>
+				<li class="clickable"><a class="clr-text-primary" href="#gallery">Fotoboek</a></li>
 			</ul>
 		</nav>
 		<!-- border -->
-		<div class="w-full transition-[width] lg:w-[92%] max-w-7xl mt-2 border-b-2 border-black" />
+		<div class="w-full transition-[width] lg:w-[92%] max-w-7xl mt-2 border-b-2 clr-border" />
 	</div>
 </header>
 
 <style>
+	#header__logo-X .cls-2,
+	#header__logo-X .cls-3 {
+		stroke: var(--text-primary);
+	}
 </style>

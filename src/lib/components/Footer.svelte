@@ -51,7 +51,7 @@
 
 <footer
 	id="footer"
-	class="static lg:sticky lg:bottom-0 flex justify-center items-center w-full bg-gray-800 lg:bg-white text-white lg:text-black shadow-2xl fade-content shadow-white"
+	class="static lg:sticky lg:bottom-0 flex justify-center items-center w-full clr-bg-primary"
 >
 	<!-- TODO light vs dark theme -->
 	<div
@@ -62,7 +62,7 @@
                 "
 	>
 		<!-- border -->
-		<div class="w-0 transition-all lg:w-[92%] max-w-7xl border-t-2 border-black" />
+		<div class="w-0 transition-all lg:w-[92%] max-w-7xl border-t-2 clr-border" />
 
 		<div
 			id="footer__information"
@@ -81,7 +81,8 @@
 				<div class="flex">
 					<button
 						id="footer__kabelradio__scrollLeft"
-						class="hidden lg:block whitespace-nowrap cursor-pointer px-2 clickable-large">❮</button
+						class="hidden lg:block whitespace-nowrap cursor-pointer px-2 clickable-large"
+						><span class="block mt-[-0.15rem]">❮</span></button
 					>
 					<ul
 						id="footer__kabelradio__list"
@@ -90,7 +91,7 @@
 							flex flex-col justify-between
 					
 							lg:flex-row lg:flex-grow lg:flex-nowrap lg:whitespace-nowrap
-							max-w-[10rem]
+							max-w-[8rem]
 							overflow-hidden
 						"
 					>
@@ -112,7 +113,8 @@
 					</ul>
 					<button
 						id="footer__kabelradio__scrollRight"
-						class="hidden lg:block whitespace-nowrap cursor-pointer px-2 clickable-large">❯</button
+						class="hidden lg:block whitespace-nowrap cursor-pointer px-2 clickable-large"
+						><span class="block mt-[-0.15rem]">❯</span></button
 					>
 				</div>
 			</div>
