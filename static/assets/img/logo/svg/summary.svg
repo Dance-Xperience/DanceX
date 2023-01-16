@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 640">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-width: 64px;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #231f20;
+        stroke-linecap: square;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke-width: 96px;
+      }
+
+      .cls-4 {
+        mask: url(#mask-2);
+      }
+
+      .cls-5 {
+        font-family: Europa-Bold, Europa-Bold;
+        font-size: 58px;
+        font-weight: 700;
+        letter-spacing: .02em;
+      }
+
+      .cls-5, .cls-6 {
+        fill: #231f20;
+      }
+
+      .cls-7 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-8 {
+        filter: url(#luminosity-noclip);
+      }
+
+      .cls-9 {
+        mask: url(#mask-1);
+      }
+
+      .cls-10 {
+        mask: url(#mask);
+      }
+
+      .cls-11 {
+        filter: url(#luminosity-noclip-2);
+      }
+
+      .cls-12 {
+        filter: url(#luminosity-noclip-3);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-3" x="46.87" y="170" width="546.25" height="240"/>
+    </clipPath>
+    <filter id="luminosity-noclip" x="239.99" y="102.12" width="353.14" height="375.76" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask" x="239.99" y="102.12" width="353.14" height="375.76" maskUnits="userSpaceOnUse">
+      <g class="cls-8">
+        <polyline class="cls-2" points="307.87 410 427.87 290 307.87 170"/>
+      </g>
+    </mask>
+    <filter id="luminosity-noclip-2" x="239.99" y="102.12" width="353.14" height="375.76" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-1" x="239.99" y="102.12" width="353.14" height="375.76" maskUnits="userSpaceOnUse">
+      <g class="cls-11">
+        <polyline class="cls-2" points="307.87 410 427.87 290 307.87 170"/>
+      </g>
+    </mask>
+    <filter id="luminosity-noclip-3" x="-73.13" y="170" width="420" height="240" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-2" x="-73.13" y="170" width="420" height="240" maskUnits="userSpaceOnUse">
+      <g class="cls-12">
+        <polygon class="cls-6" points="-73.13 410 46.87 410 166.87 290 166.87 290 46.87 170 -73.13 170 -73.13 410"/>
+      </g>
+    </mask>
+  </defs>
+  <g class="cls-7">
+    <g>
+      <g id="X">
+        <polygon class="cls-6" points="307.87 455.25 262.62 410 382.62 290 262.62 170 307.87 124.75 473.13 290 307.87 455.25"/>
+        <g class="cls-10">
+          <polygon class="cls-6" points="547.87 455.25 382.62 290 547.87 124.75 593.13 170 473.13 290 593.13 410 547.87 455.25"/>
+        </g>
+      </g>
+      <g id="X-2" data-name="X">
+        <polyline class="cls-1" points="307.87 410 427.87 290 307.87 170"/>
+        <g class="cls-9">
+          <polyline class="cls-1" points="547.87 170 427.87 290 547.87 410"/>
+        </g>
+      </g>
+      <g id="D">
+        <g class="cls-4">
+          <path class="cls-6" d="m200.36,234l56,56-56,56h-89.49v-112h89.49m26.51-64H46.87v240h180l120-120h0s-120-120-120-120h0Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+  <text class="cls-5" transform="translate(89.68 498.03)"><tspan x="0" y="0">Dance Xperience</tspan></text>
+</svg>

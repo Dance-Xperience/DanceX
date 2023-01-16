@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 330.51 240">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-width: 64px;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-1, .cls-3 {
+        stroke: #000;
+        stroke-linecap: square;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-4 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-5 {
+        filter: url(#luminosity-noclip);
+      }
+
+      .cls-6 {
+        mask: url(#mask);
+      }
+
+      .cls-3 {
+        stroke-width: 96px;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-2" x="0" y="0" width="330.51" height="240"/>
+    </clipPath>
+    <filter id="luminosity-noclip" x="-22.63" y="-67.88" width="382.18" height="382.18" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask" x="-22.63" y="-67.88" width="382.18" height="382.18" maskUnits="userSpaceOnUse">
+      <g class="cls-5">
+        <path class="cls-3" d="m291.67,246.41L45.25,0"/>
+      </g>
+    </mask>
+  </defs>
+  <g class="cls-4">
+    <g id="X">
+      <path class="cls-1" d="m285.73,240.48L45.25,0"/>
+      <g class="cls-6">
+        <line class="cls-1" x1="285.25" x2="45.25" y2="240"/>
+      </g>
+    </g>
+  </g>
+</svg>

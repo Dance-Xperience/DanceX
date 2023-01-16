@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 300 240">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        filter: url(#luminosity-noclip);
+      }
+
+      .cls-4 {
+        mask: url(#mask);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-2" x="0" y="0" width="300" height="240"/>
+    </clipPath>
+    <filter id="luminosity-noclip" x="-120" y="0" width="420" height="240" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask" x="-120" y="0" width="420" height="240" maskUnits="userSpaceOnUse">
+      <g class="cls-3">
+        <polygon points="-120 240 0 240 120 120 120 120 0 0 -120 0 -120 240"/>
+      </g>
+    </mask>
+  </defs>
+  <g class="cls-1">
+    <g id="D">
+      <g class="cls-4">
+        <path d="m153.49,64l56,56-56,56H64V64h89.49M180,0H0v240h180l120-120L180,0h0Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

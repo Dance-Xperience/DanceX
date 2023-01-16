@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 360">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-width: 64px;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #231f20;
+        stroke-linecap: square;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke-width: 96px;
+      }
+
+      .cls-4 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-5 {
+        filter: url(#luminosity-noclip);
+      }
+
+      .cls-6 {
+        mask: url(#mask-1);
+      }
+
+      .cls-7 {
+        mask: url(#mask);
+      }
+
+      .cls-8 {
+        filter: url(#luminosity-noclip-2);
+      }
+
+      .cls-9 {
+        fill: #231f20;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-3" x="46.87" y="60" width="546.25" height="240"/>
+    </clipPath>
+    <filter id="luminosity-noclip" x="239.99" y="-7.88" width="353.14" height="375.76" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask" x="239.99" y="-7.88" width="353.14" height="375.76" maskUnits="userSpaceOnUse">
+      <g class="cls-5">
+        <polyline class="cls-2" points="307.87 300 427.87 180 307.87 60"/>
+      </g>
+    </mask>
+    <filter id="luminosity-noclip-2" x="-73.13" y="60" width="420" height="240" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-1" x="-73.13" y="60" width="420" height="240" maskUnits="userSpaceOnUse">
+      <g class="cls-8">
+        <polygon class="cls-9" points="-73.13 300 46.87 300 166.87 180 166.87 180 46.87 60 -73.13 60 -73.13 300"/>
+      </g>
+    </mask>
+  </defs>
+  <g class="cls-4">
+    <g>
+      <g id="X">
+        <polyline class="cls-1" points="307.87 300 427.87 180 307.87 60"/>
+        <g class="cls-7">
+          <polyline class="cls-1" points="547.87 60 427.87 180 547.87 300"/>
+        </g>
+      </g>
+      <g id="D">
+        <g class="cls-6">
+          <path class="cls-9" d="m200.36,124l56,56-56,56h-89.49v-112h89.49m26.51-64H46.87v240h180l120-120-120-120h0Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

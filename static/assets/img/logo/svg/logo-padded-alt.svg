@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 360">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #231f20;
+        stroke-linecap: square;
+        stroke-miterlimit: 10;
+        stroke-width: 96px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-4 {
+        filter: url(#luminosity-noclip);
+      }
+
+      .cls-5 {
+        mask: url(#mask-1);
+      }
+
+      .cls-6 {
+        mask: url(#mask);
+      }
+
+      .cls-7 {
+        filter: url(#luminosity-noclip-2);
+      }
+
+      .cls-8 {
+        fill: #231f20;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-2" x="46.87" y="60" width="546.25" height="240"/>
+    </clipPath>
+    <filter id="luminosity-noclip" x="234.22" y="-13.66" width="390.67" height="390.67" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask" x="234.22" y="-13.66" width="390.67" height="390.67" maskUnits="userSpaceOnUse">
+      <g class="cls-4">
+        <path class="cls-1" d="m302.1,54.23l254.9,254.9"/>
+      </g>
+    </mask>
+    <filter id="luminosity-noclip-2" x="-73.13" y="60" width="420" height="240" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-1" x="-73.13" y="60" width="420" height="240" maskUnits="userSpaceOnUse">
+      <g class="cls-7">
+        <polygon class="cls-8" points="-73.13 300 46.87 300 166.87 180 166.87 180 46.87 60 -73.13 60 -73.13 300"/>
+      </g>
+    </mask>
+  </defs>
+  <g class="cls-3">
+    <g>
+      <g id="X">
+        <rect class="cls-8" x="395.87" y="-21.71" width="64" height="403.41" transform="translate(-1.96 355.27) rotate(-45)"/>
+        <g class="cls-6">
+          <rect class="cls-8" x="226.17" y="148" width="403.41" height="64" transform="translate(-1.96 355.27) rotate(-45)"/>
+        </g>
+      </g>
+      <g id="D">
+        <g class="cls-5">
+          <path class="cls-8" d="m200.36,124l56,56-56,56h-89.49v-112h89.49m26.51-64H46.87v240h180l120-120-120-120h0Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
