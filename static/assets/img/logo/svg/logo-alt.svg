@@ -62,16 +62,16 @@
       </g>
     </mask>
   </defs>
-  <g class="cls-4">
-    <g>
+  <g id="logo-alt">
+    <g class="cls-4">
       <g id="X">
         <polyline class="cls-1" points="261 0 381 120 501 240"/>
         <g class="cls-7">
           <polyline class="cls-1" points="261 240 381 120 501 0"/>
         </g>
       </g>
-      <g id="D">
-        <g class="cls-6">
+      <g class="cls-6">
+        <g id="D">
           <path d="m153.49,64l56,56-56,56h-89.49V64h89.49M180,0H0v240h180l120-120h0L180,0h0Z"/>
         </g>
       </g>

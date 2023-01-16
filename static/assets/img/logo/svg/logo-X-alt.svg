@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 330.51 240">
+<svg id="header__logo-X" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 330.51 240">
   <defs>
     <style>
       .cls-1 {
@@ -45,11 +45,13 @@
       </g>
     </mask>
   </defs>
-  <g class="cls-4">
-    <g id="X">
-      <path class="cls-1" d="m285.73,240.48L45.25,0"/>
-      <g class="cls-6">
-        <line class="cls-1" x1="285.25" x2="45.25" y2="240"/>
+  <g id="logo-X-alt">
+    <g class="cls-4">
+      <g id="X">
+        <path class="cls-1" d="m285.73,240.48L45.25,0"/>
+        <g class="cls-6">
+          <line class="cls-1" x1="285.25" x2="45.25" y2="240"/>
+        </g>
       </g>
     </g>
   </g>

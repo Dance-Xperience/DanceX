@@ -1,83 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 640">
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 546.25 240">
   <defs>
     <style>
-      .cls-1 {
-        fill: #fff;
+      @media (prefers-color-scheme: dark) {
+        svg {
+          filter: invert(1);
+        }
       }
-
-      .cls-2 {
+      
+      .cls-1 {
         stroke-width: 64px;
       }
 
-      .cls-2, .cls-3, .cls-4 {
+      .cls-1, .cls-2, .cls-3 {
         fill: none;
       }
 
-      .cls-2, .cls-4 {
+      .cls-1, .cls-3 {
         stroke: #000;
         stroke-linecap: square;
         stroke-miterlimit: 10;
       }
 
-      .cls-5 {
+      .cls-4 {
         clip-path: url(#clippath);
       }
 
-      .cls-6 {
+      .cls-5 {
         filter: url(#luminosity-noclip);
       }
 
-      .cls-7 {
+      .cls-6 {
         mask: url(#mask-1);
       }
 
-      .cls-8 {
+      .cls-7 {
         mask: url(#mask);
       }
 
-      .cls-4 {
+      .cls-3 {
         stroke-width: 96px;
       }
 
-      .cls-9 {
+      .cls-8 {
         filter: url(#luminosity-noclip-2);
       }
     </style>
     <clipPath id="clippath">
-      <rect class="cls-3" x="46.87" y="200" width="546.25" height="240"/>
+      <rect class="cls-2" x="0" y="0" width="546.25" height="240"/>
     </clipPath>
-    <filter id="luminosity-noclip" x="239.99" y="132.12" width="353.14" height="375.76" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+    <filter id="luminosity-noclip" x="193.12" y="-67.88" width="353.14" height="375.76" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
       <feFlood flood-color="#fff" result="bg"/>
       <feBlend in="SourceGraphic" in2="bg"/>
     </filter>
-    <mask id="mask" x="239.99" y="132.12" width="353.14" height="375.76" maskUnits="userSpaceOnUse">
-      <g class="cls-6">
-        <polyline class="cls-4" points="307.87 440 427.87 320 307.87 200"/>
+    <mask id="mask" x="193.12" y="-67.88" width="353.14" height="375.76" maskUnits="userSpaceOnUse">
+      <g class="cls-5">
+        <polyline class="cls-3" points="261 240 381 120 261 0"/>
       </g>
     </mask>
-    <filter id="luminosity-noclip-2" x="-73.13" y="200" width="420" height="240" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+    <filter id="luminosity-noclip-2" x="-120" y="0" width="420" height="240" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
       <feFlood flood-color="#fff" result="bg"/>
       <feBlend in="SourceGraphic" in2="bg"/>
     </filter>
-    <mask id="mask-1" x="-73.13" y="200" width="420" height="240" maskUnits="userSpaceOnUse">
-      <g class="cls-9">
-        <polygon points="-73.13 440 46.87 440 166.87 320 166.87 320 46.87 200 -73.13 200 -73.13 440"/>
+    <mask id="mask-1" x="-120" y="0" width="420" height="240" maskUnits="userSpaceOnUse">
+      <g class="cls-8">
+        <polygon points="-120 240 0 240 120 120 120 120 0 0 -120 0 -120 240"/>
       </g>
     </mask>
   </defs>
-  <rect class="cls-1" width="640" height="640" rx="128" ry="128"/>
-  <g class="cls-5">
-    <g>
-      <g id="X">
-        <polyline class="cls-2" points="307.87 440 427.87 320 307.87 200"/>
-        <g class="cls-8">
-          <polyline class="cls-2" points="547.87 200 427.87 320 547.87 440"/>
+  <g id="favicon">
+    <g id="logo">
+      <g class="cls-4">
+        <g id="X">
+          <polyline class="cls-1" points="261 240 381 120 261 0"/>
+          <g class="cls-7">
+            <polyline class="cls-1" points="501 0 381 120 501 240"/>
+          </g>
         </g>
-      </g>
-      <g id="D">
-        <g class="cls-7">
-          <path d="m200.36,264l56,56-56,56h-89.49v-112h89.49m26.51-64H46.87v240h180l120-120-120-120h0Z"/>
+        <g class="cls-6">
+          <g id="D">
+            <path d="m153.49,64l56,56-56,56h-89.49V64h89.49M180,0H0v240h180l120-120L180,0h0Z"/>
+          </g>
         </g>
       </g>
     </g>
