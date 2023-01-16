@@ -1,0 +1,203 @@
+@use 'sass:color';
+
+// Colors
+
+$dx-color-white: hsl(0, 0%, 100%);
+
+$dx-color-neutral-95: hsl(0, 0%, 95%);
+$dx-color-neutral-90: hsl(0, 0%, 90%);
+$dx-color-neutral-85: hsl(0, 0%, 85%);
+$dx-color-neutral-80: hsl(0, 0%, 80%);
+$dx-color-neutral-75: hsl(0, 0%, 75%);
+$dx-color-neutral-70: hsl(0, 0%, 70%);
+$dx-color-neutral-65: hsl(0, 0%, 65%);
+$dx-color-neutral-60: hsl(0, 0%, 60%);
+$dx-color-neutral-55: hsl(0, 0%, 55%);
+$dx-color-neutral-50: hsl(0, 0%, 50%);
+$dx-color-neutral-45: hsl(0, 0%, 45%);
+$dx-color-neutral-40: hsl(0, 0%, 40%);
+$dx-color-neutral-35: hsl(0, 0%, 35%);
+$dx-color-neutral-30: hsl(0, 0%, 30%);
+$dx-color-neutral-25: hsl(0, 0%, 25%);
+$dx-color-neutral-20: hsl(0, 0%, 20%);
+$dx-color-neutral-15: hsl(0, 0%, 15%);
+$dx-color-neutral-10: hsl(0, 0%, 10%);
+$dx-color-neutral-5: hsl(0, 0%, 5%);
+$dx-color-black: hsl(0, 0%, 0%);
+
+$dx-color-orange: hsl(38, 100%, 50%);
+
+$dx-color-orange-50: $dx-color-orange;
+$dx-color-orange-95: color.change($dx-color-orange, $lightness: 95%);
+$dx-color-orange-90: color.change($dx-color-orange, $lightness: 90%);
+$dx-color-orange-85: color.change($dx-color-orange, $lightness: 85%);
+$dx-color-orange-80: color.change($dx-color-orange, $lightness: 80%);
+$dx-color-orange-75: color.change($dx-color-orange, $lightness: 75%);
+$dx-color-orange-70: color.change($dx-color-orange, $lightness: 70%);
+$dx-color-orange-65: color.change($dx-color-orange, $lightness: 65%);
+$dx-color-orange-60: color.change($dx-color-orange, $lightness: 60%);
+$dx-color-orange-55: color.change($dx-color-orange, $lightness: 55%);
+$dx-color-orange-45: color.change($dx-color-orange, $lightness: 45%);
+$dx-color-orange-40: color.change($dx-color-orange, $lightness: 40%);
+$dx-color-orange-35: color.change($dx-color-orange, $lightness: 35%);
+$dx-color-orange-30: color.change($dx-color-orange, $lightness: 30%);
+$dx-color-orange-25: color.change($dx-color-orange, $lightness: 25%);
+$dx-color-orange-20: color.change($dx-color-orange, $lightness: 20%);
+$dx-color-orange-15: color.change($dx-color-orange, $lightness: 15%);
+$dx-color-orange-10: color.change($dx-color-orange, $lightness: 10%);
+$dx-color-orange-5: color.change($dx-color-orange, $lightness: 5%);
+
+$dx-color-blue: hsl(220, 100%, 50%);
+
+$dx-color-blue-50: $dx-color-blue;
+$dx-color-blue-95: color.change($dx-color-blue, $lightness: 95%);
+$dx-color-blue-90: color.change($dx-color-blue, $lightness: 90%);
+$dx-color-blue-85: color.change($dx-color-blue, $lightness: 85%);
+$dx-color-blue-80: color.change($dx-color-blue, $lightness: 80%);
+$dx-color-blue-75: color.change($dx-color-blue, $lightness: 75%);
+$dx-color-blue-70: color.change($dx-color-blue, $lightness: 70%);
+$dx-color-blue-65: color.change($dx-color-blue, $lightness: 65%);
+$dx-color-blue-60: color.change($dx-color-blue, $lightness: 60%);
+$dx-color-blue-55: color.change($dx-color-blue, $lightness: 55%);
+$dx-color-blue-45: color.change($dx-color-blue, $lightness: 45%);
+$dx-color-blue-40: color.change($dx-color-blue, $lightness: 40%);
+$dx-color-blue-35: color.change($dx-color-blue, $lightness: 35%);
+$dx-color-blue-30: color.change($dx-color-blue, $lightness: 30%);
+$dx-color-blue-25: color.change($dx-color-blue, $lightness: 25%);
+$dx-color-blue-20: color.change($dx-color-blue, $lightness: 20%);
+$dx-color-blue-15: color.change($dx-color-blue, $lightness: 15%);
+$dx-color-blue-10: color.change($dx-color-blue, $lightness: 10%);
+$dx-color-blue-5: color.change($dx-color-blue, $lightness: 5%);
+
+$dx-color-green: hsl(143, 100%, 50%);
+
+$dx-color-green-50: $dx-color-green;
+$dx-color-green-95: color.change($dx-color-green, $lightness: 95%);
+$dx-color-green-90: color.change($dx-color-green, $lightness: 90%);
+$dx-color-green-85: color.change($dx-color-green, $lightness: 85%);
+$dx-color-green-80: color.change($dx-color-green, $lightness: 80%);
+$dx-color-green-75: color.change($dx-color-green, $lightness: 75%);
+$dx-color-green-70: color.change($dx-color-green, $lightness: 70%);
+$dx-color-green-65: color.change($dx-color-green, $lightness: 65%);
+$dx-color-green-60: color.change($dx-color-green, $lightness: 60%);
+$dx-color-green-55: color.change($dx-color-green, $lightness: 55%);
+$dx-color-green-45: color.change($dx-color-green, $lightness: 45%);
+$dx-color-green-40: color.change($dx-color-green, $lightness: 40%);
+$dx-color-green-35: color.change($dx-color-green, $lightness: 35%);
+$dx-color-green-30: color.change($dx-color-green, $lightness: 30%);
+$dx-color-green-25: color.change($dx-color-green, $lightness: 25%);
+$dx-color-green-20: color.change($dx-color-green, $lightness: 20%);
+$dx-color-green-15: color.change($dx-color-green, $lightness: 15%);
+$dx-color-green-10: color.change($dx-color-green, $lightness: 10%);
+$dx-color-green-5: color.change($dx-color-green, $lightness: 5%);
+
+$dx-color-red: hsl(345, 100%, 50%);
+
+$dx-color-red-50: $dx-color-red;
+$dx-color-red-95: color.change($dx-color-red, $lightness: 95%);
+$dx-color-red-90: color.change($dx-color-red, $lightness: 90%);
+$dx-color-red-85: color.change($dx-color-red, $lightness: 85%);
+$dx-color-red-80: color.change($dx-color-red, $lightness: 80%);
+$dx-color-red-75: color.change($dx-color-red, $lightness: 75%);
+$dx-color-red-70: color.change($dx-color-red, $lightness: 70%);
+$dx-color-red-65: color.change($dx-color-red, $lightness: 65%);
+$dx-color-red-60: color.change($dx-color-red, $lightness: 60%);
+$dx-color-red-55: color.change($dx-color-red, $lightness: 55%);
+$dx-color-red-45: color.change($dx-color-red, $lightness: 45%);
+$dx-color-red-40: color.change($dx-color-red, $lightness: 40%);
+$dx-color-red-35: color.change($dx-color-red, $lightness: 35%);
+$dx-color-red-30: color.change($dx-color-red, $lightness: 30%);
+$dx-color-red-25: color.change($dx-color-red, $lightness: 25%);
+$dx-color-red-20: color.change($dx-color-red, $lightness: 20%);
+$dx-color-red-15: color.change($dx-color-red, $lightness: 15%);
+$dx-color-red-10: color.change($dx-color-red, $lightness: 10%);
+$dx-color-red-5: color.change($dx-color-red, $lightness: 5%);
+
+// Light theme
+
+$dx-theme-light-text-primary: $dx-color-neutral-10;
+$dx-theme-light-text-secondary: $dx-color-neutral-30;
+$dx-theme-light-text-inactive: color.change($dx-color-neutral-10, $alpha: 0.65);
+
+$dx-theme-light-text-link-primary-default: $dx-color-orange-50;
+$dx-theme-light-text-link-primary-hover: $dx-color-orange-60;
+$dx-theme-light-text-link-primary-active: $dx-color-orange-35;
+
+$dx-theme-light-text-link-secondary-default: $dx-color-blue-50;
+$dx-theme-light-text-link-secondary-hover: $dx-color-blue-60;
+$dx-theme-light-text-link-secondary-active: $dx-color-blue-35;
+
+$dx-theme-light-text-invert: $dx-color-neutral-95;
+
+
+$dx-theme-light-background-primary: $dx-color-neutral-90;
+$dx-theme-light-background-secondary: $dx-color-blue-80;
+$dx-theme-light-background-tertiary: $dx-color-neutral-80;
+
+$dx-theme-light-border-primary: $dx-color-orange-40;
+$dx-theme-light-border-secondary: $dx-color-blue-40;
+$dx-theme-light-border-success: $dx-color-green-65;
+
+$dx-theme-light-button-primary-default: $dx-color-neutral-15;
+$dx-theme-light-button-primary-hover: $dx-color-neutral-25;
+$dx-theme-light-button-primary-active: $dx-color-neutral-5;
+$dx-theme-light-button-primary-inactive: color.change($dx-color-neutral-15, $alpha: 0.65);
+
+$dx-theme-light-button-secondary-default: $dx-color-orange-50;
+$dx-theme-light-button-secondary-hover: $dx-color-orange-65;
+$dx-theme-light-button-secondary-active: $dx-color-orange-40;
+$dx-theme-light-button-secondary-inactive: color.change($dx-color-orange-50, $alpha: 0.65);
+
+$dx-theme-light-icon-primary: $dx-color-neutral-40;
+$dx-theme-light-icon-secondary: $dx-color-neutral-70;
+$dx-theme-light-icon-information: $dx-color-blue-65;
+$dx-theme-light-icon-warning: $dx-color-orange-65;
+$dx-theme-light-icon-critical: $dx-color-red-65;
+$dx-theme-light-icon-success: $dx-color-green-65;
+
+$dx-theme-light-accent-primary: $dx-color-orange-50;
+$dx-theme-light-accent-secondary: $dx-color-blue-50;
+
+// Dark theme
+
+$dx-theme-dark-text-primary: $dx-color-neutral-90;
+$dx-theme-dark-text-secondary: $dx-color-neutral-80;
+$dx-theme-dark-text-inactive: color.change($dx-color-neutral-90, $alpha: 0.65);
+
+$dx-theme-dark-text-link-primary-default: $dx-color-orange-60;
+$dx-theme-dark-text-link-primary-hover: $dx-color-orange-70;
+$dx-theme-dark-text-link-primary-active: $dx-color-orange-50;
+
+$dx-theme-dark-text-link-secondary-default: $dx-color-blue-60;
+$dx-theme-dark-text-link-secondary-hover: $dx-color-orange-70;
+$dx-theme-dark-text-link-secondary-active: $dx-color-orange-50;
+
+$dx-theme-dark-text-invert: $dx-color-neutral-5;
+
+$dx-theme-dark-background-primary: $dx-color-neutral-5;
+$dx-theme-dark-background-secondary: $dx-color-blue-20;
+$dx-theme-dark-background-tertiary: $dx-color-neutral-20;
+
+$dx-theme-dark-border-primary: $dx-color-orange-65;
+$dx-theme-dark-border-secondary: $dx-color-blue-65;
+$dx-theme-dark-border-success: $dx-color-green-65;
+
+$dx-theme-dark-button-primary-default: $dx-color-neutral-90;
+$dx-theme-dark-button-primary-hover: $dx-color-neutral-65;
+$dx-theme-dark-button-primary-active: $dx-color-neutral-45;
+$dx-theme-dark-button-primary-inactive: color.change($dx-color-neutral-90, $alpha: 0.65);
+
+$dx-theme-dark-button-secondary-default: $dx-color-orange-50;
+$dx-theme-dark-button-secondary-hover: $dx-color-orange-65;
+$dx-theme-dark-button-secondary-active: $dx-color-orange-40;
+$dx-theme-dark-button-secondary-inactive: color.change($dx-color-orange-50, $alpha: 0.65);
+
+$dx-theme-dark-icon-primary: $dx-color-neutral-60;
+$dx-theme-dark-icon-secondary: $dx-color-neutral-70;
+$dx-theme-dark-icon-information: $dx-color-blue-50;
+$dx-theme-dark-icon-warning: $dx-color-orange-65;
+$dx-theme-dark-icon-critical: $dx-color-red-65;
+$dx-theme-dark-icon-success: $dx-color-green-65;
+
+$dx-theme-dark-accent-primary: $dx-color-orange-50;
+$dx-theme-dark-accent-secondary: $dx-color-blue-50;
