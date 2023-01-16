@@ -98,16 +98,16 @@
 							KPN: 1015
 						</li>
 						<li class="lg:min-w-full translate-x-[var(--footer-kabelradio-offset)] transition-all">
-							XS4ALL: 1015
-						</li>
-						<li class="lg:min-w-full translate-x-[var(--footer-kabelradio-offset)] transition-all">
 							Solcon: 1215
 						</li>
 						<li class="lg:min-w-full translate-x-[var(--footer-kabelradio-offset)] transition-all">
-							Ziggo: 912
+							T-Mobile: 2086
 						</li>
 						<li class="lg:min-w-full translate-x-[var(--footer-kabelradio-offset)] transition-all">
-							T-Mobile: 2086
+							XS4ALL: 1015
+						</li>
+						<li class="lg:min-w-full translate-x-[var(--footer-kabelradio-offset)] transition-all">
+							Ziggo: 912
 						</li>
 					</ul>
 					<button
