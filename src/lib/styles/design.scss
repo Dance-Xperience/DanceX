@@ -1,3 +1,12 @@
-a:hover {
-        text-decoration: underline;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.clickable {
+        @apply transition-transform;
+        @apply hover:scale-105 active:scale-95;
+}
+.clickable-large {
+        @apply transition-transform;
+        @apply hover:scale-110 active:scale-95;
 }

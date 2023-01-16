@@ -1,5 +1,52 @@
-<script>
+<script lang="ts">
 	import id from '../../identity';
+	import { onMount } from 'svelte';
+
+	onMount(() => {
+		const r = document.querySelector(':root') as HTMLElement;
+
+		const footer__kabelradio__list = document.querySelector(
+			'#footer__kabelradio__list'
+		) as HTMLUListElement;
+
+		let footer__kabelradio__list__count = footer__kabelradio__list.childElementCount;
+
+		function set_footer__kabelradio__offset(offset: string) {
+			r.style.setProperty('--footer-kabelradio-offset', offset);
+		}
+
+		function footer__kabelradio__scrollRight() {
+			const oldOffset = getComputedStyle(r).getPropertyValue('--footer-kabelradio-offset');
+
+			let newOffset = parseInt(oldOffset) - 100;
+
+			if (newOffset < (footer__kabelradio__list__count - 1) * -100) {
+				newOffset = 0;
+			}
+
+			set_footer__kabelradio__offset(`${newOffset}%`);
+		}
+
+		function footer__kabelradio__scrollLeft() {
+			const oldOffset = getComputedStyle(r).getPropertyValue('--footer-kabelradio-offset');
+
+			let newOffset = parseInt(oldOffset) + 100;
+
+			if (newOffset > 0) {
+				newOffset = (footer__kabelradio__list__count - 1) * -100;
+			}
+
+			set_footer__kabelradio__offset(`${newOffset}%`);
+		}
+
+		(
+			document.querySelector('#footer__kabelradio__scrollRight') as HTMLButtonElement
+		).addEventListener('click', footer__kabelradio__scrollRight);
+
+		(
+			document.querySelector('#footer__kabelradio__scrollLeft') as HTMLButtonElement
+		).addEventListener('click', footer__kabelradio__scrollLeft);
+	});
 </script>
 
 <footer id="footer" class="static lg:absolute lg:bottom-0 flex justify-center items-center w-full">
@@ -11,6 +58,7 @@
                         max-w-7xl
                         bg-gray-800 lg:bg-white 
                         text-white lg:text-black
+			
                 "
 	>
 		<!-- border -->
@@ -21,30 +69,54 @@
 			class="
 				flex flex-col lg:flex-row flex-grow justify-between items-center lg:items-start self-stretch 
 					
-				mx-8 mt-6 mb-4
+				m-8 lg:m-4
 
 				max-w-7xl
 
-				relative gap-x-8"
+				relative gap-8"
 		>
-			<div id="footer__kabelradio" class="text-center max-w-[16rem] flex-1 overflow-hidden">
+			<div
+				id="footer__kabelradio"
+				class="text-center max-w-[16rem] flex-1 flex flex-wrap justify-center"
+			>
 				<b>Digitale Kabelradio</b>
-				<div class="relative flex flex-row marquee gap-x-4">
-					<ul class="flex justify-between gap-x-4 ">
-						<li class="whitespace-nowrap">KPN: 1015</li>
-						<li class="whitespace-nowrap">XS4ALL: 1015</li>
-						<li class="whitespace-nowrap">Solcon: 1215</li>
-						<li class="whitespace-nowrap">Ziggo: 912</li>
-						<li class="whitespace-nowrap">T-Mobile: 2086</li>
-					</ul>
-					<ul class="flex justify-between  gap-x-4 ">
-						<li class="whitespace-nowrap">KPN: 1015</li>
-						<li class="whitespace-nowrap">XS4ALL: 1015</li>
-						<li class="whitespace-nowrap">Solcon: 1215</li>
-						<li class="whitespace-nowrap">Ziggo: 912</li>
-						<li class="whitespace-nowrap">T-Mobile: 2086</li>
-					</ul>
-				</div>
+				<div class="basis-full h-0" />
+				<button
+					id="footer__kabelradio__scrollLeft"
+					class="hidden lg:block whitespace-nowrap cursor-pointer px-2 clickable-large">❮</button
+				>
+				<ul
+					id="footer__kabelradio__list"
+					class="
+						relative
+						flex flex-col justify-between
+						
+						lg:flex-row lg:flex-grow lg:flex-nowrap lg:whitespace-nowrap
+
+						max-w-[10rem]
+						overflow-hidden
+					"
+				>
+					<li class="lg:min-w-full translate-x-[var(--footer-kabelradio-offset)] transition-all">
+						KPN: 1015
+					</li>
+					<li class="lg:min-w-full translate-x-[var(--footer-kabelradio-offset)] transition-all">
+						XS4ALL: 1015
+					</li>
+					<li class="lg:min-w-full translate-x-[var(--footer-kabelradio-offset)] transition-all">
+						Solcon: 1215
+					</li>
+					<li class="lg:min-w-full translate-x-[var(--footer-kabelradio-offset)] transition-all">
+						Ziggo: 912
+					</li>
+					<li class="lg:min-w-full translate-x-[var(--footer-kabelradio-offset)] transition-all">
+						T-Mobile: 2086
+					</li>
+				</ul>
+				<button
+					id="footer__kabelradio__scrollRight"
+					class="hidden lg:block whitespace-nowrap cursor-pointer px-2 clickable-large">❯</button
+				>
 			</div>
 			<div id="footer__fmradio" class="text-center max-w-md">
 				<b>FM Radio</b>
@@ -61,12 +133,14 @@
 			<div id="footer__online" class="text-center max-w-md">
 				<b>Online Stream</b>
 				<ul class="flex">
-					<li><a href="https://omroepede.nl/radio">https://omroepede.nl/radio</a></li>
+					<li>
+						<a href="https://omroepede.nl/radio" class="clickable-large">https://omroepede.nl/radio</a>
+					</li>
 				</ul>
 			</div>
-			<ul id="footer__socials" class="flex flex-row gap-4 flex-wrap">
+			<ul id="footer__socials" class="flex flex-row gap-8 lg:gap-4 flex-wrap mt-8 lg:mt-0">
 				<li class="social-link">
-					<a href="https://www.facebook.com/djkessie/" class="flex items-center gap-2">
+					<a href="https://www.facebook.com/djkessie/" class="flex items-center gap-2 clickable-large">
 						<img
 							class="h-10"
 							height="96em"
@@ -77,7 +151,10 @@
 				</li>
 
 				<li class="social-link">
-					<a href="https://www.instagram.com/dancex.rtvrijnstreek/" class="flex items-center gap-2">
+					<a
+						href="https://www.instagram.com/dancex.rtvrijnstreek/"
+						class="flex items-center gap-2 clickable-large"
+					>
 						<img
 							class="h-10"
 							height="96em"
@@ -88,7 +165,7 @@
 				</li>
 
 				<li class="social-link">
-					<a href="https://omroepede.nl/" class="flex items-center gap-2">
+					<a href="https://omroepede.nl/" class="flex items-center gap-2 clickable-large">
 						<img class="h-10" height="96em" src="./assets/img/icons/png/edefm.png" />
 						<!-- <span>Omroep Ede</span> -->
 					</a>
@@ -98,16 +175,8 @@
 	</div>
 </footer>
 
-<style lang="scss">
-	.marquee {
-		animation: marquee 30s linear infinite;
-	}
-	@keyframes marquee {
-		0% {
-			transform: translateX(0, 0);
-		}
-		100% {
-			transform: translateX(-202%);
-		}
+<style>
+	:root {
+		--footer-kabelradio-offset: 0%;
 	}
 </style>

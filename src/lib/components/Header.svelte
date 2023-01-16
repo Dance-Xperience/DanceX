@@ -16,7 +16,7 @@
 					relative
 				"
 		>
-			<a href="/" class="flex flex-row items-end font-excluded text-4xl hover:no-underline">
+			<a href="/" class="flex flex-row items-end font-excluded text-4xl">
 				<img
 					class="h-10"
 					height="96em"
@@ -24,7 +24,7 @@
 					src="/assets/img/logo/svg/logo-D.svg"
 					alt={id.name}
 				/>
-				<span class="hidden xl:inline translate-x-[-0.175rem]">ance</span>
+				<span class="hidden xl:inline translate-x-[-0.175rem] leading-[0.6125]">ance</span>
 				<img
 					class="h-10 translate-x-[-0.95rem] xl:translate-x-0"
 					height="96em"
@@ -32,7 +32,7 @@
 					src="/assets/img/logo/svg/logo-X.svg"
 					alt=""
 				/>
-				<span class="hidden xl:inline">perience</span>
+				<span class="hidden xl:inline leading-[0.6125]">perience</span>
 			</a>
 			<input id="header__navbar__menu-toggle" class="hidden" type="checkbox" />
 
@@ -58,10 +58,10 @@
 						lg:bg-transparent
 					"
 			>
-				<li><a href="/aboutus">Over Ons</a></li>
-				<li><a href="/contact">Contact</a></li>
-				<li><a href="/friends">Vriendenboek</a></li>
-				<li><a href="/gallery">Fotoboek</a></li>
+				<li class="clickable"><a href="#aboutus">Over Ons</a></li>
+				<li class="clickable"><a href="#contact">Contact</a></li>
+				<li class="clickable"><a href="#friends">Vriendenboek</a></li>
+				<li class="clickable"><a href="#gallery">Fotoboek</a></li>
 			</ul>
 		</nav>
 		<!-- border -->
