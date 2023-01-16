@@ -8,6 +8,11 @@
 
 	// Styles
 	import '../app.css';
+
+	// import '$lib/styles/colors.scss';
+        import '$lib/styles/typography.scss';
+	import '$lib/styles/design.scss';
+        // import '$lib/styles/layout.scss';
 </script>
 
 <svelte:head>
@@ -40,10 +45,10 @@
 	<meta name="twitter:image" content={`${id.url}/assets/img/logo/jpg/summary.jpg`} />
 </svelte:head>
 
-<div class="flex flex-col items-center">
+<div class="relative flex flex-col items-center">
 	<Header />
 
-	<main>
+	<main class="min-h-screen">
 		<slot />
 	</main>
 
