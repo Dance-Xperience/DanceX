@@ -4,8 +4,8 @@
 	import { onMount } from 'svelte';
 	import { browser } from '$app/environment';
 
-	onMount(() => {
-		const inject = import('@iconfu/svg-inject');
+	onMount(async () => {
+		const inject = await import('@iconfu/svg-inject');
 
 		if (browser) {
 
