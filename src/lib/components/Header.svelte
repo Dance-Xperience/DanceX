@@ -5,7 +5,7 @@
 	import { browser } from '$app/environment';
 
 	onMount(async () => {
-		const inject = await import('@iconfu/svg-inject');
+		const inject = (await import('@iconfu/svg-inject')).default;
 
 		if (browser) {
 
