@@ -4,11 +4,15 @@
 	import inject from '@iconfu/svg-inject';
 
 	import { onMount } from 'svelte';
+	import { browser } from '$app/environment';
 
 	onMount(() => {
-		document.querySelectorAll('nav img[src$=".svg"]').forEach((img) => {
-			inject(img);
-		});
+		if (browser) {
+
+			document.querySelectorAll('nav img[src$=".svg"]').forEach((img) => {
+				inject(img);
+			});
+		}
 	});
 </script>
 
