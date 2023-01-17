@@ -1,12 +1,12 @@
 <script lang="ts">
 	import id from '../../identity';
 
-	import inject from '@iconfu/svg-inject';
-
 	import { onMount } from 'svelte';
 	import { browser } from '$app/environment';
 
 	onMount(() => {
+		const inject = import('@iconfu/svg-inject');
+
 		if (browser) {
 
 			document.querySelectorAll('nav img[src$=".svg"]').forEach((img) => {
