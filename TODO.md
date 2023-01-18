@@ -6,9 +6,8 @@
 - [ ] turn logo into svelte component
   - [ ] import svg and use it inline in stead of svg-inject
 
-## Being worked on
+## In Progress
 
 ## On hold
-
 
 ## Finished
