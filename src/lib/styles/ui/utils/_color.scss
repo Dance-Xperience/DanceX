@@ -1,15 +1,4 @@
-@use './_theme' as *;
-
-*,
-*::before,
-*::after {
-	transition: background-color 150ms ease-out, color 150ms ease-out;
-}
-
-body {
-	background-color: var(--background-primary);
-	color: var(--text-primary);
-}
+// @use '$lib/styles/ui/base/themes.scss' as *;
 
 .clr-text-primary {
 	color: var(--text-primary);

@@ -1,5 +1,5 @@
 @use 'sass:color';
-@use './_color-palette' as *;
+@use '$lib/styles/ui/color-palette.scss' as *;
 
 @mixin light-theme {
 	--text-primary: #{$dx-theme-light-text-primary};
