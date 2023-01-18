@@ -7,13 +7,8 @@
 	import Header from '$lib/components/Header.svelte';
 
 	// Styles
-	import '../app.css';
-
-	// import '$lib/styles/colors.scss';
-	import '$lib/styles/typography.scss';
-	import '$lib/styles/design.scss';
-	import '$lib/styles/colors.scss'
-	// import '$lib/styles/layout.scss';
+	import '$lib/styles/app.scss';
+	
 </script>
 
 <svelte:head>
