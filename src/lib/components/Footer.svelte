@@ -157,7 +157,7 @@
 
 				<li class="social-link">
 					<a
-						href="https://www.instagram.com/dancex.rtvrijnstreek/"
+						href="https://www.instagram.com/dance.xperience/"
 						class="flex items-center gap-2 clickable-large"
 					>
 						<img

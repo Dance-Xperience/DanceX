@@ -1,13 +1,31 @@
 # Stuff to do for DanceX.nl
+## In Progress
 
-## To Do
 
+## High Prio
 - [ ] prefer color schemes on the SVGs.
 - [ ] turn logo into svelte component
   - [ ] import svg and use it inline in stead of svg-inject
 
-## In Progress
+- [ ] Hamburger menu
+- [ ] Jump link navbar
 
-## On hold
+- [ ] Audio stream
+- [ ] Over ons
+- [ ] Vriendenboek
+- [ ] Fotoboek
 
-## Finished
+- [ ] Contact forms
+- [ ] Agenda
+
+## Mid Prio
+- [ ] (Auto?) dark mode
+
+## Low Prio
+- [ ] Fixen footer animation
+
+## Done
+- [x] Header
+- [x] Footer
+- [x] Favicon 
+- [x] Alfabetische volgorde lijstje footer

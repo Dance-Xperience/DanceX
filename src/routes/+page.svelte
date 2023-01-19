@@ -1,4 +1,19 @@
 <main class="mx-8 my-4">
+	<h2>Vriendenboek</h2>
+		<p style="text-align: center;">
+			DanceXperience is over de jaren heen voor ons meer geworden dan alleen een radio show.<br>
+			<em>Voor ons is DanceXperience een familie.</em><br><br>
+
+			Studio gasten zien we dan ook niet alleen als gasten, maar ook als vrienden van de show.<br>
+			Zo hebben we nauwe banden met onze gasten opgebouwd en blijven we altijd in contact na een uitzending om de artiesten te volgen.<br><br>
+
+			Hieronder hebben we een lijst opgesteld met artiesten die in onze uitzendingen voorgekomen zijn.<br>
+			Er zit sterk talent tussen deze artiesten.<br><br>
+
+			Vanuit DanceXperience zouden we het leuk vinden als jullie deze artiesten een kans zouden willen geven.<br>
+			Bijgevoegd bij elke artiest zijn hun social pages, zeker volgen!<br><br>
+		</p>
+	
 	<p>
 		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sint sequi quam harum quidem quos
 		nulla autem possimus quibusdam nostrum voluptatem saepe doloremque ex, nam esse adipisci non
