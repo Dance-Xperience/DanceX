@@ -1,0 +1,95 @@
+[
+        {
+                "name": "Generic Friend Template",
+                "img": "...",
+                "socials": {
+                        "Website": "https://...",
+                        "Patreon": "https://patreon.com/...",
+                        "YouTube": "https://youtube.com/@...",
+
+                        "Spotify": "https://spotify.com/artist/...",
+                        "Bandcamp": "https://....bandcamp.com",
+                        "SoundCloud": "https://soundcloud.com/...",
+                        "Apple Music": "https://music.apple.com/artist/...",
+                        "Newgrounds": "https://....newgrounds.com",
+
+                        "Facebook": "https://facebook.com/...",
+                        "Instagram": "https://instagram.com/...",
+                        "Twitter": "https://twitter.com/@...",
+                        "Discord": "https://discord.gg/...",
+                        "Twitch": "https://twitch.tv/..."
+                }
+        },
+        {
+                "name": "Bart Zeal",
+                "img": "...",
+                "socials": {
+                        "Website": "https://bartzeal.com/",
+                        "YouTube": "https://www.youtube.com/bartzeal",
+                        "Spotify": "https://open.spotify.com/artist/1BcqkzstassP2Rc0JdyAcf/",
+                        "Facebook": "https://www.facebook.com/BartZeal/",
+                        "Instagram": "https://www.instagram.com/bartzealmusic/",
+                        "Discord": "https://discord.gg/YaTrrgGNgw"
+                }
+        },
+        {
+                "name": "Half Centaur",
+                "img": "...",
+                "socials": {
+                        "YouTube": "https://www.youtube.com/@halfcentaur8909",
+                        "Spotify": "https://open.spotify.com/artist/5FtkpMVRLnNK5pbxoCC8ZN/",
+                        "Facebook": "https://nl-nl.facebook.com/halfcentaurofficial/",
+                        "Instagram": "https://www.instagram.com/halfcentaurofficial/"
+                }
+        },
+        {
+                "name": "Jonesy Sings",
+                "img": "...",
+                "socials": {
+                        "YouTube": "https://www.youtube.com/@jonesysings5240",
+                        "Spotify": "https://open.spotify.com/artist/0lv8xORZe0i7gEWDdfn9Nq/",
+                        "Facebook": "https://www.facebook.com/Jonesysings/",
+                        "Instagram": "https://www.instagram.com/jonesysings/"
+                }
+        },
+        {
+                "name": "Lowice",
+                "img": "...",
+                "socials": {
+                        "Website": "https://www.lowice.nl/",
+                        "YouTube": "https://www.youtube.com/channel/UCcTNVQzpueMh8yi8mSA9qjA",
+                        "Spotify": "https://open.spotify.com/artist/4pcaHsrePnSuHSQOGPXMh4/",
+                        "Facebook": "https://www.facebook.com/Lowice.official",
+                        "Instagram": "https://www.instagram.com/lowice_official/"
+                }
+        },
+        {
+                "name": "Patch",
+                "bio": "",
+                "img": "https://i.imgur.com/4ZQZ7Zm.jpg",
+                "socials": {
+                        "Website": "https://patchstep.com",
+                        "Youtube": "https://www.youtube.com/@patchstep",
+                        
+                        "Spotify": "https://open.spotify.com/artist/5QKpNE47kzOTNDAYyaAzOd",
+                        "Bandcamp": "https://music.patchstep.com",
+                        "SoundCloud": "https://soundcloud.com/patchstep",
+                        "Apple Music": "https://music.apple.com/us/artist/patch/1543434338",
+                        "Newgrounds": "https://patchstep.newgrounds.com",
+
+                        "Instagram": "https://www.instagram.com/patch.step/",
+                        "Twitter": "https://twitter.com/patchstep",
+                        "Discord": "https://discord.gg/he37kjZhBY"
+                }
+        },
+        {
+                "name": "Twan Lammers",
+                "img": "...",
+                "socials": {
+                        "YouTube": "https://www.youtube.com/@twanlammersmusic4982",
+                        "Spotify": "https://open.spotify.com/artist/4suTTjenkiedNTiZ7F6VEC/",
+                        "Facebook": "https://nl-nl.facebook.com/twan.lammers.37",
+                        "Instagram": "https://www.instagram.com/twanlammersmusic/"
+                }
+        }
+]

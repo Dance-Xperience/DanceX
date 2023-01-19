@@ -1,19 +1,59 @@
+<script lang="ts">
+	import Player from '$lib/components/Player.svelte';
+
+	import FriendList from '$lib/components/FriendList.svelte';
+
+	function isLive(): boolean {
+		let d = new Date();
+		let hours = d.getHours();
+		let day = d.getDay();
+
+		return day == 3 && hours >= 19;
+	}
+</script>
+
 <main class="mx-8 my-4">
-	<h2>Vriendenboek</h2>
-		<p style="text-align: center;">
-			DanceXperience is over de jaren heen voor ons meer geworden dan alleen een radio show.<br>
-			<em>Voor ons is DanceXperience een familie.</em><br><br>
+	<div>
+		{#if isLive()}
+			Dance Xperience nu LIVE! Luister hier
+		{:else}
+			Op dit moment zijn we niet live, luister naar onze collega's!
+		{/if}
+		<Player />
 
-			Studio gasten zien we dan ook niet alleen als gasten, maar ook als vrienden van de show.<br>
-			Zo hebben we nauwe banden met onze gasten opgebouwd en blijven we altijd in contact na een uitzending om de artiesten te volgen.<br><br>
+		<div style="margin-bottom: 10px">
+			Uitzending gemist? Geen probleem!<br />
+			Luister terug via
+			<a href="https://www.mediainstelling.nl/edegemist/uitzendinggemist/index-iframe.php"
+				>deze link</a
+			>.
+		</div>
+	</div>
 
-			Hieronder hebben we een lijst opgesteld met artiesten die in onze uitzendingen voorgekomen zijn.<br>
-			Er zit sterk talent tussen deze artiesten.<br><br>
-
-			Vanuit DanceXperience zouden we het leuk vinden als jullie deze artiesten een kans zouden willen geven.<br>
-			Bijgevoegd bij elke artiest zijn hun social pages, zeker volgen!<br><br>
+	<div id="friends">
+		<h2>Vriendenboek</h2>
+		<p>
+			DanceXperience is over de jaren heen voor ons meer geworden dan alleen een radio show.<br />
+			<em>Voor ons is DanceXperience een familie.</em>
 		</p>
-	
+		<p>
+			Studio gasten zien we dan ook niet alleen als gasten, maar ook als vrienden van de show.<br />
+			Zo hebben we nauwe banden met onze gasten opgebouwd en blijven we altijd in contact na een uitzending
+			om de artiesten te volgen.
+		</p>
+		<p>
+			Hieronder hebben we een lijst opgesteld met artiesten die in onze uitzendingen voorgekomen
+			zijn.<br />
+			Er zit sterk talent tussen deze artiesten.
+		</p>
+		<p>
+			Vanuit DanceXperience zouden we het leuk vinden als jullie deze artiesten een kans zouden
+			willen geven.<br />
+			Bijgevoegd bij elke artiest zijn hun social pages, zeker volgen!
+		</p>
+		<FriendList />
+	</div>
+
 	<p>
 		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius sint sequi quam harum quidem quos
 		nulla autem possimus quibusdam nostrum voluptatem saepe doloremque ex, nam esse adipisci non
