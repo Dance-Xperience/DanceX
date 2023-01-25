@@ -39,23 +39,23 @@
 				aria-label="Dance Experience"
 				aria-labelledby="Dance Xperience"
 			>
-				<h1 class="flex flex-row items-end font-excluded text-4xl">
+				<h1 class="transition-all flex flex-row items-end font-excluded text-4xl">
 					<img
-						class="h-10"
+						class="transition-all h-10"
 						height="96em"
 						id="header__logo-D"
 						src="/assets/img/logo/svg/logo-D.svg"
 						alt="D"
 					/>
-					<span class="hidden xl:inline translate-x-[-0.175rem] leading-[0.6125]">ance</span>
+					<span class="transition-all w-0 overflow-clip text-right xl:w-auto translate-x-[-0.175rem] leading-[0.6125]">ance</span>
 					<img
-						class="h-10 translate-x-[-0.95rem] xl:translate-x-0"
+						class="transition-all h-10 translate-x-[-0.95rem] xl:translate-x-0"
 						height="96em"
 						id="header__logo-X"
 						src="/assets/img/logo/svg/logo-X.svg"
 						alt="X"
 					/>
-					<span class="hidden xl:inline leading-[0.6125]">perience</span>
+					<span class="transition-all w-0 overflow-clip text-right xl:w-auto leading-[0.6125]">perience</span>
 				</h1>
 			</a>
 			<input id="header__navbar__menu-toggle" class="hidden" type="checkbox" />
