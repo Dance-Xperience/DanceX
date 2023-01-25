@@ -47,7 +47,7 @@
 						src="/assets/img/logo/svg/logo-D.svg"
 						alt="D"
 					/>
-					<span class="transition-all w-0 overflow-clip text-right xl:w-auto translate-x-[-0.175rem] leading-[0.6125]">ance</span>
+					<span class="transition-all max-w-0 overflow-clip text-right xl:max-w-full translate-x-[-0.175rem] leading-[0.6125]">ance</span>
 					<img
 						class="transition-all h-10 translate-x-[-0.95rem] xl:translate-x-0"
 						height="96em"
@@ -55,7 +55,7 @@
 						src="/assets/img/logo/svg/logo-X.svg"
 						alt="X"
 					/>
-					<span class="transition-all w-0 overflow-clip text-right xl:w-auto leading-[0.6125]">perience</span>
+					<span class="transition-all max-w-0 overflow-clip text-right xl:max-w-full leading-[0.6125]">perience</span>
 				</h1>
 			</a>
 			<input id="header__navbar__menu-toggle" class="hidden" type="checkbox" />
