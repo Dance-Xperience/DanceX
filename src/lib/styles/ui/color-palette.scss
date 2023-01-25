@@ -119,9 +119,9 @@ $dx-theme-light-text-primary: $dx-color-neutral-10;
 $dx-theme-light-text-secondary: $dx-color-neutral-30;
 $dx-theme-light-text-inactive: color.change($dx-color-neutral-10, $alpha: 0.65);
 
-$dx-theme-light-text-link-primary-default: $dx-color-orange-50;
-$dx-theme-light-text-link-primary-hover: $dx-color-orange-60;
-$dx-theme-light-text-link-primary-active: $dx-color-orange-35;
+$dx-theme-light-text-link-primary-default: $dx-color-green-35;
+$dx-theme-light-text-link-primary-hover: $dx-color-green-45;
+$dx-theme-light-text-link-primary-active: $dx-color-green-25;
 
 $dx-theme-light-text-link-secondary-default: $dx-color-blue-50;
 $dx-theme-light-text-link-secondary-hover: $dx-color-blue-60;
@@ -134,7 +134,7 @@ $dx-theme-light-background-primary: $dx-color-neutral-90;
 $dx-theme-light-background-secondary: $dx-color-blue-80;
 $dx-theme-light-background-tertiary: $dx-color-neutral-80;
 
-$dx-theme-light-border-primary: $dx-color-orange-40;
+$dx-theme-light-border-primary: $dx-color-green-40;
 $dx-theme-light-border-secondary: $dx-color-blue-40;
 $dx-theme-light-border-success: $dx-color-green-65;
 
@@ -143,19 +143,19 @@ $dx-theme-light-button-primary-hover: $dx-color-neutral-25;
 $dx-theme-light-button-primary-active: $dx-color-neutral-5;
 $dx-theme-light-button-primary-inactive: color.change($dx-color-neutral-15, $alpha: 0.65);
 
-$dx-theme-light-button-secondary-default: $dx-color-orange-50;
-$dx-theme-light-button-secondary-hover: $dx-color-orange-65;
-$dx-theme-light-button-secondary-active: $dx-color-orange-40;
+$dx-theme-light-button-secondary-default: $dx-color-green-50;
+$dx-theme-light-button-secondary-hover: $dx-color-green-65;
+$dx-theme-light-button-secondary-active: $dx-color-green-40;
 $dx-theme-light-button-secondary-inactive: color.change($dx-color-orange-50, $alpha: 0.65);
 
 $dx-theme-light-icon-primary: $dx-color-neutral-40;
 $dx-theme-light-icon-secondary: $dx-color-neutral-70;
 $dx-theme-light-icon-information: $dx-color-blue-65;
-$dx-theme-light-icon-warning: $dx-color-orange-65;
+$dx-theme-light-icon-warning: $dx-color-green-65;
 $dx-theme-light-icon-critical: $dx-color-red-65;
 $dx-theme-light-icon-success: $dx-color-green-65;
 
-$dx-theme-light-accent-primary: $dx-color-orange-50;
+$dx-theme-light-accent-primary: $dx-color-green-50;
 $dx-theme-light-accent-secondary: $dx-color-blue-50;
 
 // Dark theme
@@ -164,13 +164,13 @@ $dx-theme-dark-text-primary: $dx-color-neutral-90;
 $dx-theme-dark-text-secondary: $dx-color-neutral-80;
 $dx-theme-dark-text-inactive: color.change($dx-color-neutral-90, $alpha: 0.65);
 
-$dx-theme-dark-text-link-primary-default: $dx-color-orange-60;
-$dx-theme-dark-text-link-primary-hover: $dx-color-orange-70;
-$dx-theme-dark-text-link-primary-active: $dx-color-orange-50;
+$dx-theme-dark-text-link-primary-default: $dx-color-green-60;
+$dx-theme-dark-text-link-primary-hover: $dx-color-green-70;
+$dx-theme-dark-text-link-primary-active: $dx-color-green-50;
 
 $dx-theme-dark-text-link-secondary-default: $dx-color-blue-60;
-$dx-theme-dark-text-link-secondary-hover: $dx-color-orange-70;
-$dx-theme-dark-text-link-secondary-active: $dx-color-orange-50;
+$dx-theme-dark-text-link-secondary-hover: $dx-color-green-70;
+$dx-theme-dark-text-link-secondary-active: $dx-color-green-50;
 
 $dx-theme-dark-text-invert: $dx-color-neutral-5;
 
@@ -178,7 +178,7 @@ $dx-theme-dark-background-primary: $dx-color-neutral-5;
 $dx-theme-dark-background-secondary: $dx-color-blue-20;
 $dx-theme-dark-background-tertiary: $dx-color-neutral-20;
 
-$dx-theme-dark-border-primary: $dx-color-orange-65;
+$dx-theme-dark-border-primary: $dx-color-green-65;
 $dx-theme-dark-border-secondary: $dx-color-blue-65;
 $dx-theme-dark-border-success: $dx-color-green-65;
 
@@ -187,17 +187,17 @@ $dx-theme-dark-button-primary-hover: $dx-color-neutral-65;
 $dx-theme-dark-button-primary-active: $dx-color-neutral-45;
 $dx-theme-dark-button-primary-inactive: color.change($dx-color-neutral-90, $alpha: 0.65);
 
-$dx-theme-dark-button-secondary-default: $dx-color-orange-50;
-$dx-theme-dark-button-secondary-hover: $dx-color-orange-65;
-$dx-theme-dark-button-secondary-active: $dx-color-orange-40;
-$dx-theme-dark-button-secondary-inactive: color.change($dx-color-orange-50, $alpha: 0.65);
+$dx-theme-dark-button-secondary-default: $dx-color-green-50;
+$dx-theme-dark-button-secondary-hover: $dx-color-green-65;
+$dx-theme-dark-button-secondary-active: $dx-color-green-40;
+$dx-theme-dark-button-secondary-inactive: color.change($dx-color-green-50, $alpha: 0.65);
 
 $dx-theme-dark-icon-primary: $dx-color-neutral-60;
 $dx-theme-dark-icon-secondary: $dx-color-neutral-70;
 $dx-theme-dark-icon-information: $dx-color-blue-50;
-$dx-theme-dark-icon-warning: $dx-color-orange-65;
+$dx-theme-dark-icon-warning: $dx-color-green-65;
 $dx-theme-dark-icon-critical: $dx-color-red-65;
 $dx-theme-dark-icon-success: $dx-color-green-65;
 
-$dx-theme-dark-accent-primary: $dx-color-orange-50;
+$dx-theme-dark-accent-primary: $dx-color-green-50;
 $dx-theme-dark-accent-secondary: $dx-color-blue-50;
