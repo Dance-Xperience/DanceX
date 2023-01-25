@@ -39,23 +39,52 @@
 				aria-label="Dance Experience"
 				aria-labelledby="Dance Xperience"
 			>
-				<h1 class="transition-all flex flex-row items-end font-excluded text-4xl">
+				<h1 class="flex flex-row items-end font-excluded text-4xl">
 					<img
-						class="transition-all h-10"
+						class="
+							transition-all 
+							h-10
+						"
 						height="96em"
 						id="header__logo-D"
 						src="/assets/img/logo/svg/logo-D.svg"
 						alt="D"
 					/>
-					<span class="transition-all max-w-0 overflow-clip text-right xl:max-w-full translate-x-[-0.175rem] leading-[0.6125]">ance</span>
+					<span class="
+						flex flex-row items-end justify-end
+						
+						transition-all 
+						
+						translate-x-[-0.95rem] xl:translate-x-[-0.175rem] 
+						
+						overflow-clip max-w-0 xl:max-w-full leading-[0.6125] 
+						"
+					>
+						<span class="block">ance</span>
+					</span>
 					<img
-						class="transition-all h-10 translate-x-[-0.95rem] xl:translate-x-0"
+						class="
+							transition-all 
+							
+							h-10 translate-x-[-0.95rem] xl:translate-x-0
+						"
 						height="96em"
 						id="header__logo-X"
 						src="/assets/img/logo/svg/logo-X.svg"
 						alt="X"
 					/>
-					<span class="transition-all max-w-0 overflow-clip text-right xl:max-w-full leading-[0.6125]">perience</span>
+					<span class="
+						flex flex-row items-end justify-end
+
+						transition-all 
+						
+						translate-x-[-0.95rem] xl:translate-x-[-0.175rem] 
+						
+						overflow-clip max-w-0 xl:max-w-full leading-[0.6125] 
+						"
+					>
+						<span class="block">perience</span>
+					</span>
 				</h1>
 			</a>
 			<input id="header__navbar__menu-toggle" class="hidden" type="checkbox" />
@@ -72,6 +101,7 @@
 
 			<ul
 				class="
+						transition-all duration-1000
 						hidden
 						fixed
 						top-0 left-0
@@ -83,7 +113,7 @@
 						lg:bg-transparent
 					"
 			>
-				<li class="clickable"><a class="clr-text-primary" href="#aboutus">Over Ons</a></li>
+				<li class="clickable"><a class="clr-text-primary transition-all" href="#aboutus">Over Ons</a></li>
 				<li class="clickable"><a class="clr-text-primary" href="#contact">Contact</a></li>
 				<li class="clickable"><a class="clr-text-primary" href="#friends">Vriendenboek</a></li>
 				<li class="clickable"><a class="clr-text-primary" href="#gallery">Fotoboek</a></li>
