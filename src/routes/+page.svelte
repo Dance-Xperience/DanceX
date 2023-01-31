@@ -28,6 +28,8 @@
 
 <style>
 	main {
+		display: flex;
+		flex-direction: column;
 		margin: 4em;
 		max-width: 1280px;
 	}
