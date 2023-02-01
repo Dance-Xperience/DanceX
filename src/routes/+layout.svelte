@@ -8,7 +8,19 @@
 
 	// Styles
 	import '$lib/styles/app.scss';
-	
+	import { browser } from '$app/environment';
+
+	if (browser) {
+		document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+			anchor.addEventListener('click', function (e) {
+				e.preventDefault();
+
+				document.querySelector(this.getAttribute('href')).scrollIntoView({
+					behavior: 'smooth'
+				});
+			});
+		});
+	}
 </script>
 
 <svelte:head>
@@ -41,7 +53,7 @@
 	<meta name="twitter:image" content={`${id.url}/assets/img/logo/jpg/summary.jpg`} />
 </svelte:head>
 
-<div class=" relative flex flex-col justify-between items-center min-h-screen">
+<div class="relative flex flex-col justify-between items-center min-h-screen ">
 	<Header />
 
 	<section class="w-full flex flex-col justify-center items-center">
@@ -52,3 +64,9 @@
 
 	<Footer />
 </div>
+
+<style lang="scss">
+	:global(*) {
+		@apply scroll-mt-[6em];
+	}
+</style>

@@ -1,5 +1,4 @@
 <script lang="ts">
-	import id from '../../identity';
 	import { onMount } from 'svelte';
 
 	onMount(() => {

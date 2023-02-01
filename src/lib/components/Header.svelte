@@ -8,9 +8,18 @@
 		const inject = (await import('@iconfu/svg-inject')).default;
 
 		if (browser) {
-
 			document.querySelectorAll('nav img[src$=".svg"]').forEach((img) => {
 				inject(img);
+			});
+			const logo = document.querySelector('#header__logo');
+
+			if (!logo) return;
+
+			logo.addEventListener('click', (e) => {
+				e.preventDefault();
+				(document.querySelector('#content') as HTMLElement).scrollIntoView({
+					behavior: 'smooth'
+				});
 			});
 		}
 	});
@@ -34,6 +43,7 @@
 				"
 		>
 			<a
+				id="header__logo"
 				href="/"
 				class="clr-text-primary"
 				aria-label="Dance Experience"
@@ -50,7 +60,8 @@
 						src="/assets/img/logo/svg/logo-D.svg"
 						alt="D"
 					/>
-					<span class="
+					<span
+						class="
 						flex flex-row items-end justify-end
 						
 						transition-all 
@@ -73,7 +84,8 @@
 						src="/assets/img/logo/svg/logo-X.svg"
 						alt="X"
 					/>
-					<span class="
+					<span
+						class="
 						flex flex-row items-end justify-end
 
 						transition-all 
@@ -113,7 +125,9 @@
 						lg:bg-transparent
 					"
 			>
-				<li class="clickable"><a class="clr-text-primary transition-all" href="#aboutus">Over Ons</a></li>
+				<li class="clickable">
+					<a class="clr-text-primary transition-all" href="#aboutus">Over Ons</a>
+				</li>
 				<li class="clickable"><a class="clr-text-primary" href="#contact">Contact</a></li>
 				<li class="clickable"><a class="clr-text-primary" href="#friends">Vriendenboek</a></li>
 				<li class="clickable"><a class="clr-text-primary" href="#gallery">Fotoboek</a></li>
