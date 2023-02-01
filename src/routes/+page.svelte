@@ -2,6 +2,12 @@
 	import '../app.css';
 </script>
 
+<svelte:head>
+	<title>Dance Xperience</title>
+	<meta name="description" content="Dance Xperience is een radioprogramma op Omroep Ede" />
+	<meta name="keywords" content="Dance Xperience, Omroep Ede, Ede FM, Dance, Radio" />
+</svelte:head>
+
 <main>
 	<h1>Dance Xperience</h1>
 	<p>
