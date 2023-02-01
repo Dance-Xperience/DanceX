@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 640">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #231f20;
+        stroke-linecap: square;
+        stroke-miterlimit: 10;
+        stroke-width: 96px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        font-family: Europa-Bold, Europa-Bold;
+        font-size: 58px;
+        font-weight: 700;
+        letter-spacing: .02em;
+      }
+
+      .cls-3, .cls-4 {
+        fill: #231f20;
+      }
+
+      .cls-5 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-6 {
+        filter: url(#luminosity-noclip);
+      }
+
+      .cls-7 {
+        mask: url(#mask-1);
+      }
+
+      .cls-8 {
+        mask: url(#mask);
+      }
+
+      .cls-9 {
+        filter: url(#luminosity-noclip-2);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-2" x="46.87" y="170" width="546.25" height="240"/>
+    </clipPath>
+    <filter id="luminosity-noclip" x="234.22" y="96.34" width="390.67" height="390.67" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask" x="234.22" y="96.34" width="390.67" height="390.67" maskUnits="userSpaceOnUse">
+      <g class="cls-6">
+        <path class="cls-1" d="m302.1,164.23l254.9,254.9"/>
+      </g>
+    </mask>
+    <filter id="luminosity-noclip-2" x="-73.13" y="170" width="420" height="240" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-1" x="-73.13" y="170" width="420" height="240" maskUnits="userSpaceOnUse">
+      <g class="cls-9">
+        <polygon class="cls-4" points="-73.13 410 46.87 410 166.87 290 166.87 290 46.87 170 -73.13 170 -73.13 410"/>
+      </g>
+    </mask>
+  </defs>
+  <g class="cls-5">
+    <g>
+      <g id="X">
+        <rect class="cls-4" x="395.87" y="88.29" width="64" height="403.41" transform="translate(-79.74 387.49) rotate(-45)"/>
+        <g class="cls-8">
+          <rect class="cls-4" x="226.17" y="258" width="403.41" height="64" transform="translate(-79.74 387.49) rotate(-45)"/>
+        </g>
+      </g>
+      <g id="D">
+        <g class="cls-7">
+          <path class="cls-4" d="m200.36,234l56,56-56,56h-89.49v-112h89.49m26.51-64H46.87v240h180l120-120h0l-120-120h0Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+  <text class="cls-3" transform="translate(90.38 498.03)"><tspan x="0" y="0">Dance Xperience</tspan></text>
+</svg>
