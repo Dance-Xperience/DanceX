@@ -49,7 +49,7 @@
 	</section>
 
 	<section>
-		<h2>Programmering:</h2>
+		<h2>Programmering</h2>
 		<ul>
 			<li>
 				<div class="flex max-w-[24rem] justify-between gap-8">
