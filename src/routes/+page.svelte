@@ -56,7 +56,5 @@
 		margin: 4em;
 		max-width: 1280px;
 	}
-	* {
-		text-align: center;
-	}
+	
 </style>
