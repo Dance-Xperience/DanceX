@@ -51,8 +51,18 @@
 	<section>
 		<h2>Programmering:</h2>
 		<ul>
-			<li>19:00 - 21:00 - Live presentatie</li>
-			<li>21:00 - 00:00 - Ingeprogrammeerde thema mixen</li>
+			<li>
+				<div class="flex max-w-[24rem] justify-between gap-8">
+					<span class="flex-[1]">19:00 - 21:00</span>
+					<span class="flex-[2.5]">Live presentatie</span>
+				</div>
+			</li>
+			<li>
+				<div class="flex max-w-[24rem] justify-between gap-8">
+					<span class="flex-[1]">21:00 - 00:00</span>
+					<span class="flex-[2.5]">Ingeprogrammeerde thema mixen</span>
+				</div>
+			</li>
 		</ul>
 	</section>
 
