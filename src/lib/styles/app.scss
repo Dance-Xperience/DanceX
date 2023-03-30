@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+	@apply text-5xl mb-6;
+	@apply md:text-6xl;
+	@apply text-center;
+}
+
+h2 {
+	@apply text-2xl mb-4 text-left ml-2;
+	@apply md:text-3xl;
+}
+p {
+	@apply text-left;
+}
+html {
+	@apply text-base md:text-lg;
+	@apply transition-[width,max-width,height,max-height,font-size] duration-300 ease-out;
+}
+
+section {
+	@apply my-8;
+	&:first-of-type {
+		@apply mt-0;
+	}
+}
+
+ul {
+	@apply list-outside list-disc mb-2;
+	&:last-of-type {
+		@apply mb-4;
+	}
+}
+
+a {
+	@apply text-blue-600;
+	&:hover {
+		@apply underline;
+	}
+}
